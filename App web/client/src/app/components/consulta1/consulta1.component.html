@@ -1,0 +1,18 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Profesional</th>
+        <th scope="col">Numero inventos asignados</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let p of c1 ; let i = index"> 
+        <th scope="row">{{i+1}}</th>
+        <td>{{p.nombre}}</td>
+        <td>{{p.Total}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  

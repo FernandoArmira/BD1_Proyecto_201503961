@@ -1,0 +1,25 @@
+<div class="col-md-4 offset-md-4">
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <input type="text" [(ngModel)]="pais.nombre" name="Nombre" placeholder="Nombre" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="text" [(ngModel)]="pais.area" name="Area" placeholder="Area" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="text" [(ngModel)]="pais.poblacion" name="Poblacion" placeholder="Poblacion" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="text" [(ngModel)]="pais.capital" name="Capital" placeholder="Capital" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="text" [(ngModel)]="pais.region_idregion" name="Region_idRegion" placeholder="Region_idRegion" class="form-control" autofocus>
+                </div>
+                <button class="btn btn-outline-success btn-block"  (click)="edit ? updatepais() : addpais()" type="submit">Guardar</button>
+
+            </form>
+        </div>
+    </div>
+</div>

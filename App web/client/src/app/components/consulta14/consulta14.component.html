@@ -1,0 +1,16 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Encuesta</th>
+        <th scope="col">Numero paises que han contestado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let p of c14 ; let i = index"> 
+        <th scope="row">{{i+1}}</th>
+        <td>{{p.en}}</td>
+        <td>{{p.Total}}</td>
+      </tr>
+    </tbody>
+  </table>

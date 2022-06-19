@@ -1,0 +1,17 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Pais</th>
+        <th scope="col">Area</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let p of c11 ; let i = index"> 
+        <th scope="row">{{i+1}}</th>
+        <td>{{p.pais}}</td>
+        <td>{{p.area}}</td>
+      </tr>
+    </tbody>
+  </table>
+  

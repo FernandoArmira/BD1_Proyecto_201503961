@@ -1,0 +1,16 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Isla</th>
+        <th scope="col">Poblacion</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let p of c18 ; let i = index"> 
+        <th scope="row">{{i+1}}</th>
+        <td>{{p.nombre}}</td>
+        <td>{{p.poblacion}}</td>
+      </tr>
+    </tbody>
+  </table>

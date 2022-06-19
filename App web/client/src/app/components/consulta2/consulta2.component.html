@@ -1,0 +1,18 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Pais</th>
+        <th scope="col">Numero de preguntas contestadas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let p of c2 ; let i = index"> 
+        <th scope="row">{{i+1}}</th>
+        <td>{{p.nombre}}</td>
+        <td>{{p.Total}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  

@@ -1,0 +1,19 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Inventor</th>
+        <th scope="col">Invento</th>
+        <th scope="col">Año</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let p of c10 ; let i = index"> 
+        <th scope="row">{{i+1}}</th>
+        <td>{{p.inventor}}</td>
+        <td>{{p.inventos}}</td>
+        <td>{{p.anio}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
